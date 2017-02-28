@@ -58,3 +58,12 @@ def game():
 
 game()
 ```
+#### exercise
+```python
+import random
+
+def random_item(word):
+    length = len(word) - 1
+    num = random.randint(0, length)
+    return word[num]
+```
